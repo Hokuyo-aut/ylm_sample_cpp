@@ -1,0 +1,5 @@
+
+sample/CMake/build/*
+
+sample/visual_studio2019/x64/*
+sample/visual_studio2019/.vs/*
