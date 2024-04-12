@@ -11,7 +11,7 @@ It outputs "Got a Lidar Frame!" when it receives data from YLM.
 
 How to build
 -------------------
-You will need CMake and the Boost library to build this project.
+You will need CMake and the Boost library to build this project.\
 Execute the following commands:
 ```
 cd sample/CMake
