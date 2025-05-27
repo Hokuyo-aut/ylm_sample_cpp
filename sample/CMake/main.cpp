@@ -35,8 +35,9 @@ int main() {
 
 	while (true) {
 		int ret = getFrame(sensor_IP, sensor_port);
-		if (ret < 0) // If no data coming through, sleep to prevent needless resource consumption
-			std::cout << "No connection found to YLM." << std::endl;
-			std::this_thread::sleep_for(std::chrono::milliseconds(100));
+          if (ret < 0) {
+            std::cout << "No connection found to YLM." << std::endl;
+            std::this_thread::sleep_for(std::chrono::milliseconds(100));
+          }
 	}
 }
